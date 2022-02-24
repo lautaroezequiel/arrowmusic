@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p { font-size: 1.3em;}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header nav {
+    display: flex;
+    padding: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: rgb(212, 153, 41);
+}
+/*
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba( 0, 0, 0, 0.5)
+        rgba( 0, 0, 0, 0.5)
+    ) url("media/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+*/
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5) 
+    ) 
+    ,url("media/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    width: 100%;
+}
+
+#about h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#about .img-container{
+    background-image: url("media/artista.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+#about .texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#service h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#service .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#service h3 {
+    margin-left: 30px;
+}
+
+.service-img {
+    width: 200px;
+    height: 200px;
+    margin-right: 150px;
+}
+
+#service .grabacion-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-left: 30px;
+}
+
+#service .mezcla-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-left: 30px;
+}
+
+#service .master-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-left: 30px;
+}
+
+#contact {
+    background-color: black;
+    padding-bottom: 60px;
+}
+
+#contact h2 {
+    color: white;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+#contact h3 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#contact .img-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact img {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#footer a:hover {
+    color: rgb(212, 153, 41);
+}
+
